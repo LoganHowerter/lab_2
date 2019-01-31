@@ -1,6 +1,6 @@
 #!/bin/bash
 # Author : Sky Howerter
-# Date: 1/1/2019
+# Date: 1/31/2019
 # Script follows here:
 echo "Enter a number: "
 read numOne
@@ -12,3 +12,4 @@ let prod=numOne*numTwo
 echo "The product is: $prod"
 echo "File Name: $0"
 echo "Command Line Argument 1: $1"
+grep $1 $2
